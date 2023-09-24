@@ -55,7 +55,10 @@ The application provides the following API endpoints:
 3. **Fetch All Orders**
    - Endpoint: `/orders` (GET)
    - Description: Fetch all orders with pagination support (using `limit` and `offset`).
-   - 
+   - Query Parameters:
+       - skip (Optional): Skip N products (default: 0, minimum: 0).
+       - limit (Optional): Limit the number of products returned (default: 10, maximum: 100).
+   - Example - GET /products?skip=0&limit=20
 
 4. **Fetch a Single Order**
    - Endpoint: `/orders/{order_id}` (GET)

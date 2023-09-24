@@ -74,7 +74,7 @@ The application provides the following API endpoints:
 To run the application locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/ecommerce-app-fastapi.git
+   git clone [https://github.com/yourusername/ecommerce-app-fastapi.git](https://github.com/ayushtyagi01/E-commerce-App.git)
    cd ecommerce-application
    
 2. Create a virtual environment (optional but recommended):
